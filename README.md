@@ -1,4 +1,4 @@
-Weather App
+212 Weather
 A React-based weather application built with Node.js and Express.js that allows users to search for weather information by city, view weather forecasts, and save their preferred city and temperature units. The app also suggests clothing options based on the weather.
 
 Features
