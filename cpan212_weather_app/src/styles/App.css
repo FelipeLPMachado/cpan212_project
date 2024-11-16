@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+.app {
+  text-align: center;
+}
+
+header {
+  background-color: #1e90ff;
+  padding: 1em;
+  color: white;
+}
+
+header nav a {
+  color: white;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+.auth-form, .settings, .home {
+  padding: 2em;
+  margin: 2em auto;
+  width: 300px;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+input, select, button {
+  width: 100%;
+  margin: 0.5em 0;
+  padding: 0.8em;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1c86ee;
+}
+
+.forecast-toggle button {
+  background-color: #eee;
+  margin: 0.5em;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forecast-toggle button.active {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.weather-display {
+  padding: 1em;
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.forecast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.forecast-item {
+  background: #fff;
+  padding: 1em;
+  margin: 0.5em;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1 1 150px;
+  min-width: 150px;
+  text-align: center;
+}
+
+.auth-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.auth-buttons .btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-buttons .btn:hover {
+  background-color: #45a049;
+}
